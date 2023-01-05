@@ -1,0 +1,9 @@
+version: "1"
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+    image: hossamelwakeel/bank
+    container_name: hossamContainer
+    ports:
+      - '8080:8080'
